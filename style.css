@@ -1,7 +1,7 @@
-a.project-link {
-    color: lightpink;
-    font-weight: bold;
-    text-decoration: overline;
+.back-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
 body {
     background-color: #06152e;
@@ -9,6 +9,7 @@ body {
     margin-right: auto;
     width: 1150px;
     margin-top: 35px;
+    margin-bottom: 45px;
 }
 .project-card {
     width: 300px;
@@ -46,18 +47,27 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+a.project-link {
+    color: lightpink;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
 .project-title {
     color: white;
     font: 43px "Courier New", monospace;
     text-align: center;
     margin-bottom: 4px;
 }
+
 .project-subtitle {
     color: white;
     text-align: center;
     font: 20px "Courier New", monospace;
     margin-bottom: 20px;
 }
+
 .project-separator {
     border-bottom: solid white 1px;
     width: calc(50% - 105px);
@@ -65,13 +75,22 @@ body {
     vertical-align: middle;
     margin: 0px 10px 0px 10px;
 }
+
+.project-separator-short {
+    border-bottom: solid white 1px;
+    width: calc(10%);
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 10px 0px 10px;
+}
+
 .project-logo {
     display: inline-block;
     vertical-align: middle;
 }
+
 .project-logo-section {
     text-align: center;
-    
 }
 
 .project-description {
@@ -84,7 +103,7 @@ body {
     font: 18px "Courier New", monospace;
 }
 .project-description-footer {
-    background-image: url('/static/signature.png');
+    background-image: url('signature.png');
     height: 118px;
     background-repeat: no-repeat;
     background-position: right;
