@@ -10,14 +10,45 @@ body {
     margin-top: 35px;
     margin-bottom: 45px;
 }
+body.profile{
+    background-color: #5bbdc6;
+    text-align: center;
+}
 .project-card {
     width: 300px;
-    height: 281px;
     background-color: #48699e;
     text-align: center;
     box-shadow: 2px 2px 1px black;
     margin: 40px;
     display: inline-block;
+}
+.profile-card {
+    width: 600px;
+    background-color: #8b7dd0;
+    text-align: center;
+    box-shadow: 4px 4px 2px black;
+    margin: 80px 0px 40px 0px;
+    display: inline-block;
+}
+.profile-title {
+    font: 40px "Courier New", monospace;
+    padding: 20px 0px 0px 0px;
+    color: white;
+}
+.profile-tags {
+    background-color: #5f5480;
+    font: 20px "Courier New", monospace;
+    color: #bae7d5;
+    padding: 4px 10% 4px 10%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-subtitle {
+    font: 30px "Courier New", monospace;
+    color: #ede7e7;
+    padding: 4px 0px 10px 0px;
 }
 .logo {
     padding: 20px 0px 10px 0px;
@@ -25,16 +56,15 @@ body {
 .logo-image {
     border-radius: 100%;
 }
-.title {
-    font: 20px "Courier New", monospace;
-    padding: 10px 0px 0px 0px;
-    color: white;
-    text-decoration: ;
-}
 .subtitle {
     font: 15px "Courier New", monospace;
     color: lightgrey;
     padding: 2px 0px 5px 0px;
+}
+.title {
+    font: 20px "Courier New", monospace;
+    padding: 10px 0px 0px 0px;
+    color: white;
 }
 .tags {
     background-color: #304e7e;
