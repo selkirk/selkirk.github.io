@@ -1,6 +1,26 @@
+.back-link#projects-selected {
+	border-top: 2px solid #6d9ce6;
+	border-bottom: 2px solid #6d9ce6;
+	background-color: #6d9ce6;
+	padding: 2px 7px;
+}
+.back-link#profile-selected {
+	border-top: 2px solid #5f5480;
+	border-bottom: 2px solid #5f5480;
+	background-color: #5f5480;
+	padding: 2px 7px;
+}
+.back-link#resume-selected {
+	border-top: 2px solid #e4dbe4;
+	border-bottom: 2px solid #e4dbe4;
+	background-color: #e4dbe4;
+	padding: 2px 7px;
+	color: black;
+}
 .back-link {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
+    padding: 4px 7px;
 }
 body {
     background-color: #2e3d63;
@@ -95,6 +115,7 @@ a.project-link {
     text-align: center;
     font: 20px "Courier New", monospace;
     margin-bottom: 20px;
+	margin-top: 10px;
 }
 
 .project-separator {
@@ -140,4 +161,53 @@ a.project-link {
     margin-left: auto;
     margin-top: -29px;
     margin-right: auto;
+}
+
+.section-title {
+	border-bottom: 1px solid black;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 2px;
+	margin-top: 12px;
+}
+.left {
+	display: inline-block;
+	text-align: left;
+	width: 580px;
+}
+.right {
+	display: inline-block;
+	text-align: right;
+	width: 130px;
+}
+
+.subsection {
+	margin-bottom: 2px;
+	margin-top: 9px;
+	border-bottom: 1px solid black;
+}
+
+.subsection-title {
+	font-weight: bold;
+	display: inline-block;
+	text-align: left;
+	width: 580px;
+}
+.subsection-date {
+	display: inline-block;
+	text-align: right;
+	width: 130px;
+}
+.subsection-content {
+	display: inline-block;
+	text-align: left;
+	width: 576px;
+}
+ul.lean {
+	padding-left: 20px;
+	margin: 2px;
+}
+.lean {
+	margin: 0px;
 }
