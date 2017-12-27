@@ -1,0 +1,214 @@
+.back-link#projects-selected {
+	border-top: 2px solid #48699e;
+	border-bottom: 2px solid #48699e;
+	background-color: #48699e;
+	padding: 2px 7px;
+}
+.back-link#profile-selected {
+	border-top: 2px solid #5f5480;
+	border-bottom: 2px solid #5f5480;
+	background-color: #5f5480;
+	padding: 2px 7px;
+}
+.back-link#resume-selected {
+	border-top: 2px solid #e4dbe4;
+	border-bottom: 2px solid #e4dbe4;
+	background-color: #e4dbe4;
+	padding: 2px 7px;
+	color: black;
+}
+.back-link {
+    color: white;
+    text-decoration: none;
+    padding: 4px 7px;
+}
+body {
+    background-color: #2e3d63;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+body.profile{
+    background-color: #5bbdc6;
+    text-align: center;
+}
+.project-card {
+    width: 300px;
+    background-color: #48699e;
+    text-align: center;
+    box-shadow: 2px 2px 1px black;
+    margin: 40px;
+    display: inline-block;
+}
+.profile-card {
+    width: 600px;
+    background-color: #8b7dd0;
+    text-align: center;
+    box-shadow: 4px 4px 2px black;
+    margin: 80px 0px 40px 0px;
+    display: inline-block;
+}
+.profile-title {
+    font: 40px "Courier New", monospace;
+    padding: 20px 0px 0px 0px;
+    color: white;
+}
+.profile-tags {
+    background-color: #5f5480;
+    font: 20px "Courier New", monospace;
+    color: #BAEA82;
+    padding: 4px 10% 4px 10%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-subtitle {
+    font: 30px "Courier New", monospace;
+    color: #ede7e7;
+    padding: 4px 0px 10px 0px;
+}
+.logo {
+    padding: 20px 0px 10px 0px;
+}
+.logo-image {
+    border-radius: 100%;
+}
+.subtitle {
+    font: 15px "Courier New", monospace;
+    color: lightgrey;
+    padding: 2px 0px 5px 0px;
+}
+.title {
+    font: 20px "Courier New", monospace;
+    padding: 10px 0px 0px 0px;
+    color: white;
+}
+.tags {
+    background-color: #304e7e;
+    font: 13px "Courier New", monospace;
+    color: bisque;
+    padding: 2px 10% 2px 10%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.project-link {
+    color: lightpink;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+.project-title {
+    color: white;
+    font: 43px "Courier New", monospace;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.project-subtitle {
+    color: white;
+    text-align: center;
+    font: 20px "Courier New", monospace;
+    margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.project-separator {
+    border-bottom: solid white 1px;
+    width: calc(50% - 105px);
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 10px 0px 10px;
+}
+
+.project-separator-short {
+    border-bottom: solid white 1px;
+    width: calc(10%);
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 10px 0px 10px;
+}
+
+.project-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.project-logo-section {
+    text-align: center;
+}
+
+.project-description {
+    min-width: 400px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    color: white;
+    font: 18px "Courier New", monospace;
+}
+.project-description-footer {
+    background-image: url('signature.png');
+    height: 118px;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 66%;
+    margin-left: auto;
+    margin-top: -29px;
+    margin-right: auto;
+}
+
+.section-title {
+	border-bottom: 1px solid black;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 9px;
+	margin-top: 18px;
+	font-size: 16px;
+}
+.left {
+	display: inline-block;
+	text-align: left;
+	width: 580px;
+}
+.right {
+	display: inline-block;
+	text-align: right;
+	width: 130px;
+}
+
+.subsection {
+	margin-bottom: 5px;
+	margin-top: 9px;
+	border-bottom: 1px solid black;
+}
+
+.subsection-title {
+	font-weight: bold;
+	display: inline-block;
+	text-align: left;
+	width: 580px;
+}
+.subsection-date {
+	display: inline-block;
+	text-align: right;
+	width: 130px;
+}
+.subsection-content {
+	display: inline-block;
+	text-align: left;
+	width: 576px;
+}
+ul.lean {
+	padding-left: 20px;
+	margin: 2px;
+}
+.lean {
+	margin: 0px;
+}
